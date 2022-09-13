@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="checkout Test cases">
+  <groups>
+  <run>
+  <include name="CHECKOUT"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="a7_groupTest.A1_GroupTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+   <test name="search Test case">
+  <groups>
+  <run>
+  <include name="SEARCH"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="a7_groupTest.A1_GroupTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+    <test name="addTocardTest">
+  <groups>
+  <run>
+  <include name="AddTocard"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="a7_groupTest.A1_GroupTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

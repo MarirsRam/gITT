@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="login test with chrom">
+  <parameter name="browser" value="chrome"></parameter>
+   <parameter name="url" value="https://accounts.google.com/"></parameter>
+   <parameter name="username" value="Marirs@123"></parameter>
+    <parameter name="password" value="Iamgoingto"></parameter>
+    
+    <classes>
+      <class name="a4_perameterTest.A1_PerameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
